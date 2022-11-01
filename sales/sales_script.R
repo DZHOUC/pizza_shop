@@ -19,7 +19,22 @@ for (salesdata in all_sales){
 # Use a tidyverse join to join all the data together into one file
 # called sales_data, then run the rest of the code
 
-
+sales_data <- dataset_1 %>% 
+  full_join(dataset_2) %>%
+  full_join(dataset_3) %>%
+  full_join(dataset_4) %>%
+  full_join(dataset_5) %>%
+  full_join(dataset_6) %>%
+  full_join(dataset_7) %>%
+  full_join(dataset_8) %>%
+  full_join(dataset_9) %>%
+  full_join(dataset_10) %>%
+  full_join(dataset_11) %>%
+  full_join(dataset_12) %>%
+  full_join(dataset_13) %>%
+  full_join(dataset_14) %>%
+  full_join(dataset_13) %>%
+  full_join(dataset_16) 
 
 ########################################
 
